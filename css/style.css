@@ -1,12 +1,12 @@
 /*********** Main content ***********/
 
-a, a i {
+a {
 	text-decoration: underline;
 	text-decoration-color: #e0cf70;
 	color: #736522;
 }
 
-a:hover, a i:hover{
+a:hover {
 	text-decoration: underline;
 }
 
@@ -17,7 +17,7 @@ audio, img {
 body {
 	background-color: #f2f2f2;
 	margin: 0 auto;
-	/*max-width: 800px;*/
+	max-width: 800px;
 	width: 80vw;
 	min-height: 100vh;
 	position: relative;
@@ -161,7 +161,7 @@ nav ul {
 
 	font-size: 1em;
 
-	background-image: url("../img/rainbow.jpg");
+	background:  linear-gradient(rgba(224,207,112, .5), rgba(224,207,112, 0.5)), url("../img/rainbow.jpg");
 	background-color: #cccccc;
 }
 
